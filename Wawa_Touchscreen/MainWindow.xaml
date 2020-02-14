@@ -8,18 +8,23 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Image Source="Image1.png" Stretch="Fill" Opacity="0.3"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,40,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.539,-0.101"/>
+        <Button x:Name="Sandwich_Button" Content="" HorizontalAlignment="Left" Margin="10,24,0,0" VerticalAlignment="Top" Width="163" Click="Button_Click" Height="70" BorderBrush="#FFFAF6F1">
+            <Button.Background>
+                <ImageBrush ImageSource="splash_hothoagies_lg.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,131,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,190,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,265,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="0.539,-0.101" Click="Button_Click_3"/>
         <TextBox HorizontalAlignment="Left" Height="54" Margin="310,10,0,0" TextWrapping="Wrap" Text="Evan Cheney&#xD;&#xA;Jason Reilly&#xD;&#xA;Asraa Alkurdi " VerticalAlignment="Top" Width="135"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top" Width="75"/>
-        <ListBox x:Name="Items" HorizontalAlignment="Left" Height="105" Margin="646,30,0,0" VerticalAlignment="Top" Width="125" SelectionChanged="ListBox_SelectionChanged">
+        <Button Content="Button" HorizontalAlignment="Left" Margin="10,340,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_4" />
+        <ListBox x:Name="Items" HorizontalAlignment="Left" Height="121" Margin="646,30,0,0" VerticalAlignment="Top" Width="125" SelectionChanged="ListBox_SelectionChanged">
             <ListBoxItem Content="Mango Smoothie"/>
             <ListBoxItem Content="BLT"/>
             <ListBoxItem Content="Roast Beef Sandwich"/>
             <ListBoxItem Content="Iced Coffee" Selected="ListBoxItem_Selected"/>
         </ListBox>
-        <Label x:Name="Items_Label" Content="Items Selected&#xD;&#xA;" HorizontalAlignment="Left" Margin="656,4,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+        <Label x:Name="Items_Label" Content="Items Selected&#xD;&#xA;" HorizontalAlignment="Left" Margin="656,4,0,0" VerticalAlignment="Top" FontWeight="Bold" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
+        <Label Content="Sandwiches" HorizontalAlignment="Left" Margin="50,94,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
     </Grid>
 </Window>

@@ -6,7 +6,14 @@
         xmlns:local="clr-namespace:Wawa_Touchscreen"
         mc:Ignorable="d"
         Title="Sandwiches" Height="450" Width="800">
-    <Grid>
-        
+    <Grid Background="#FFFAF6F1">
+        <Label Content="&#x9;&#x9;Make A Selection" HorizontalAlignment="Left" Margin="146,25,0,0" VerticalAlignment="Top" Width="513" FontFamily="Arial Black" FontSize="20"/>
+        <Button x:Name="Sourdough_Sandwich" Content="" HorizontalAlignment="Left" Margin="10,73,0,0" VerticalAlignment="Top" Width="168" Height="89">
+            <Button.Background>
+                <ImageBrush ImageSource="Image3.png"/>
+            </Button.Background>
+        </Button>
+        <Label x:Name="Sourdough" Content="Sourdough&#xD;&#xA;" HorizontalAlignment="Left" Margin="52,167,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
+
     </Grid>
 </Window>

@@ -40,5 +40,29 @@ namespace Wawa_Touchscreen
         {
 
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Sandwiches san1 = new Sandwiches();
+            san1.Show();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Sandwiches san1 = new Sandwiches();
+            san1.Show();
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            Sandwiches san1 = new Sandwiches();
+            san1.Show();
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            Sandwiches san1 = new Sandwiches();
+            san1.Show();
+        }
     }
 }
