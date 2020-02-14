@@ -23,5 +23,46 @@ namespace Wawa_Touchscreen
         {
             InitializeComponent();
         }
+
+        private void ListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main1 = new MainWindow();
+            main1.Show();
+        }
+
+        private void Sourdough_Sandwich_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main1 = new MainWindow();
+            main1.Show();
+        }
+
+        private void Flatbread_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main1 = new MainWindow();
+            main1.Show();
+        }
+
+        private void Roasted_Chicken_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main1 = new MainWindow();
+            main1.Show();
+        }
+
+        private void Quesedilla_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main1 = new MainWindow();
+            main1.Show();
+        }
+
+        private void Burrito_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow main1 = new MainWindow();
+            main1.Show();
+        }
     }
 }
