@@ -14,13 +14,13 @@
         <Label x:Name="lblHotChocolates" Content="Hot Chocolates" HorizontalAlignment="Left" Margin="214,387,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
         <Label x:Name="lblMacchiatos" Content="Macchiatos" HorizontalAlignment="Left" Margin="416,387,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
         <ListBox x:Name="ltbOrderItems" HorizontalAlignment="Left" Height="251" Margin="643,70,0,0" VerticalAlignment="Top" Width="126">
-            <ListBoxItem Content="Mango Smoothie"/>
-            <ListBoxItem Content="Iced Coffee"/>
-            <ListBoxItem Content="Roast Beef Sandwich"/>
-            <ListBoxItem Content="BLT"/>
+            <ListBoxItem x:Name="lblMangoSmoothie" Content="Mango Smoothie"/>
+            <ListBoxItem x:Name="lblIcedCoffee" Content="Iced Coffee"/>
+            <ListBoxItem x:Name="lblRoastBeefSandwich" Content="Roast Beef Sandwich"/>
+            <ListBoxItem x:Name="lblBLT" Content="BLT"/>
         </ListBox>
-        <Label x:Name="lblHotBeverages" Content="Hot Beverages" HorizontalAlignment="Left" Margin="190,231,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black" FontSize="20"/>
-        <Label x:Name="lblColdBeverages" Content="Cold Beverages" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black" FontSize="20"/>
+        <Label x:Name="lblHotBeverages" Content="Hot Beverages" HorizontalAlignment="Left" Margin="190,231,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="20"/>
+        <Label x:Name="lblColdBeverages" Content="Cold Beverages" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="20"/>
         <Button x:Name="btnFruitSmoothies" Content="" HorizontalAlignment="Left" Margin="3,50,0,0" VerticalAlignment="Top" Width="114" Height="111" Click="btnFruitSmoothies_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Image14.png"/>

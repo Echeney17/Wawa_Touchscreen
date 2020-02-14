@@ -58,10 +58,17 @@
     <Compile Include="Beverages.xaml.cs">
       <DependentUpon>Beverages.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Breakfast.xaml.cs">
+      <DependentUpon>Breakfast.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sandwiches.xaml.cs">
       <DependentUpon>Sandwiches.xaml</DependentUpon>
     </Compile>
     <Page Include="Beverages.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Breakfast.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -167,6 +174,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image25.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
