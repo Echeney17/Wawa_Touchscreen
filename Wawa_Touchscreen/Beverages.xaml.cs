@@ -26,18 +26,38 @@ namespace Wawa_Touchscreen
 
         private void btnFruitSmoothies_Click(object sender, RoutedEventArgs e)
         {
-            Beverages firstBeverage = new Beverages();
-            firstBeverage.Show();
+            MainWindow mainBeverages = new MainWindow();
+            mainBeverages.Show();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
+            MainWindow mainBeverages = new MainWindow();
+            mainBeverages.Show();
         }
 
         private void btnChaiTeas_Click(object sender, RoutedEventArgs e)
         {
+            MainWindow mainBeverages = new MainWindow();
+            mainBeverages.Show();
+        }
 
+        private void btnLattes_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainBeverages = new MainWindow();
+            mainBeverages.Show();
+        }
+
+        private void btnHotChocolates_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainBeverages = new MainWindow();
+            mainBeverages.Show();
+        }
+
+        private void btnMacchiatos_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow mainBeverages = new MainWindow();
+            mainBeverages.Show();
         }
     }
 }
