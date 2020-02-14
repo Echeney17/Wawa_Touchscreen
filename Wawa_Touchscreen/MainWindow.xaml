@@ -55,6 +55,6 @@
         <Label Content="Breakfast" HorizontalAlignment="Left" Margin="59,222,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.074,0.547" Foreground="#FFB61E1E" FontWeight="Bold"/>
         <Label Content="Sides&#xD;&#xA;" HorizontalAlignment="Left" Margin="290,223,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontWeight="Bold"/>
         <Label Content="Label" HorizontalAlignment="Left" VerticalAlignment="Top"/>
-        <Label Content="Combos" HorizontalAlignment="Left" Margin="192,349,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontWeight="Bold"/>
+        <Label Content="Combos" HorizontalAlignment="Left" Margin="186,349,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontWeight="Bold"/>
     </Grid>
 </Window>
