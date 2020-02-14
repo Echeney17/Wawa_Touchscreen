@@ -32,7 +32,7 @@
             </Button.Background>
         </Button>
         <Label Content="Quesedilla&#xD;&#xA;" HorizontalAlignment="Left" Margin="59,329,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontWeight="Bold"/>
-        <ListBox HorizontalAlignment="Left" Height="118" Margin="658,73,0,0" VerticalAlignment="Top" Width="124" SelectionChanged="ListBox_SelectionChanged">
+        <ListBox HorizontalAlignment="Left" Height="118" Margin="648,73,0,0" VerticalAlignment="Top" Width="139" SelectionChanged="ListBox_SelectionChanged">
             <ListBoxItem Content="Mango Smoothie"/>
             <ListBoxItem Content="BLT"/>
             <ListBoxItem Content="Roast Beef Sandwich"/>
