@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -58,6 +58,13 @@ namespace Wawa_Touchscreen
         {
             MainWindow mainBeverages = new MainWindow();
             mainBeverages.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            Sandwiches san1 = new Sandwiches();
+            san1.Show();
+            this.Visibility = Visibility.Hidden;
         }
     }
 }
