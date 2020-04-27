@@ -15,58 +15,60 @@ using System.Windows.Shapes;
 namespace Wawa_Touchscreen
 {
     /// <summary>
-    /// Interaction logic for Breakfast.xaml
+    /// Interaction logic for Beverages.xaml
     /// </summary>
-    public partial class Breakfast : Window
+    public partial class Beverages : Window
     {
-        public static string passingText;
-        public Breakfast()
+        public Beverages()
         {
             InitializeComponent();
         }
 
+        private void btnFruitSmoothies_Click(object sender, RoutedEventArgs e)
+        {
+            ltbOrderItems.Items.Add("FruitS moothies");
+        }
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            
+            ltbOrderItems.Items.Add("Fruits moothies");
         }
 
-        private void btnOatmeal_Click(object sender, RoutedEventArgs e)
+        private void btnChaiTeas_Click(object sender, RoutedEventArgs e)
         {
-            ltbOrderItems.Items.Add("Oatmeal");
+            ltbOrderItems.Items.Add("Chai Teas");
         }
 
-        private void btnBreakfastBurrito_Click(object sender, RoutedEventArgs e)
+        private void btnLattes_Click(object sender, RoutedEventArgs e)
         {
-            ltbOrderItems.Items.Add("Breakfast Burrito");
+            ltbOrderItems.Items.Add("Lattes");
         }
 
-        private void btnBreakfastBowl_Click(object sender, RoutedEventArgs e)
+        private void btnHotChocolates_Click(object sender, RoutedEventArgs e)
         {
-            ltbOrderItems.Items.Add("Breakfast Bowl");
+            ltbOrderItems.Items.Add("Hot Chocolates");
         }
 
-        private void btnBreakfastWaffleSandwich_Click(object sender, RoutedEventArgs e)
+        private void btnMacchiatos_Click(object sender, RoutedEventArgs e)
         {
-            ltbOrderItems.Items.Add("Breakfast Waffle Sandwich");
-        }
-
-        private void btnBreakfastCroissant_Click(object sender, RoutedEventArgs e)
-        {
-            ltbOrderItems.Items.Add("Breakfast Croissant");
+            ltbOrderItems.Items.Add("Macchiatos");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-           // string s1 = ltbOrderItems.SelectedItem.ToString();
-           // passingText = s1;
-
             Sandwiches san1 = new Sandwiches();
             san1.Show();
-            
-
-
             this.Visibility = Visibility.Hidden;
+        }
 
+        private void ltbOrderItems_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void btnCreamSmoothies_Click(object sender, RoutedEventArgs e)
+        {
+            ltbOrderItems.Items.Add("Cream Smoothies");
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
@@ -74,11 +76,6 @@ namespace Wawa_Touchscreen
             MainWindow main = new MainWindow();
             main.Show();
             this.Visibility = Visibility.Hidden;
-        }
-
-        private void btnBreakfastBagel_Click(object sender, RoutedEventArgs e)
-        {
-            ltbOrderItems.Items.Add("Breakfast Bagel");
         }
     }
 }
