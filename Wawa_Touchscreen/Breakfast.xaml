@@ -22,7 +22,7 @@
                 <ImageBrush ImageSource="Image22.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnBreakfastBagel" Content="" HorizontalAlignment="Left" Margin="195,272,0,0" VerticalAlignment="Top" Width="123" Height="107" Click="Button_Click">
+        <Button x:Name="btnBreakfastBagel" Content="" HorizontalAlignment="Left" Margin="195,272,0,0" VerticalAlignment="Top" Width="123" Height="107" Click="btnBreakfastBagel_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Image24.png"/>
             </Button.Background>
@@ -45,10 +45,10 @@
         <Label x:Name="lblBreakfastBagel" Content="Breakfast Bagel" HorizontalAlignment="Left" Margin="198,379,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
         <Label x:Name="lblBreakfastCroissant" Content="Breakfast Croissant" HorizontalAlignment="Left" Margin="376,379,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
         <ListBox x:Name="ltbOrderItems" HorizontalAlignment="Left" Height="221" Margin="604,113,0,0" VerticalAlignment="Top" Width="144">
-            <ListBoxItem Content="Mango Smoothie"/>
-            <ListBoxItem Content="Iced Coffee"/>
-            <ListBoxItem Content="Roast Beef Sandwich"/>
-            <ListBoxItem Content="BLT"/>
+            <ListBoxItem Content=""/>
+            <ListBoxItem Content=""/>
+            <ListBoxItem Content=""/>
+            <ListBoxItem Content=""/>
         </ListBox>
         <Button Content="Back" HorizontalAlignment="Left" Margin="639,380,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_2"/>
         <Button Content="Next" HorizontalAlignment="Left" Margin="639,30,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_1"/>
