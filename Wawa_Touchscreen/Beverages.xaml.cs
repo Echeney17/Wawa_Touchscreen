@@ -15,56 +15,70 @@ using System.Windows.Shapes;
 namespace Wawa_Touchscreen
 {
     /// <summary>
-    /// Interaction logic for Beverages.xaml
+    /// Interaction logic for Breakfast.xaml
     /// </summary>
-    public partial class Beverages : Window
+    public partial class Breakfast : Window
     {
-        public Beverages()
+        public static string passingText;
+        public Breakfast()
         {
             InitializeComponent();
         }
 
-        private void btnFruitSmoothies_Click(object sender, RoutedEventArgs e)
-        {
-            MainWindow mainBeverages = new MainWindow();
-            mainBeverages.Show();
-        }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainBeverages = new MainWindow();
-            mainBeverages.Show();
+            
         }
 
-        private void btnChaiTeas_Click(object sender, RoutedEventArgs e)
+        private void btnOatmeal_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainBeverages = new MainWindow();
-            mainBeverages.Show();
+            ltbOrderItems.Items.Add("Oatmeal");
         }
 
-        private void btnLattes_Click(object sender, RoutedEventArgs e)
+        private void btnBreakfastBurrito_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainBeverages = new MainWindow();
-            mainBeverages.Show();
+            ltbOrderItems.Items.Add("Breakfast Burrito");
         }
 
-        private void btnHotChocolates_Click(object sender, RoutedEventArgs e)
+        private void btnBreakfastBowl_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainBeverages = new MainWindow();
-            mainBeverages.Show();
+            ltbOrderItems.Items.Add("Breakfast Bowl");
         }
 
-        private void btnMacchiatos_Click(object sender, RoutedEventArgs e)
+        private void btnBreakfastWaffleSandwich_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainBeverages = new MainWindow();
-            mainBeverages.Show();
+            ltbOrderItems.Items.Add("Breakfast Waffle Sandwich");
+        }
+
+        private void btnBreakfastCroissant_Click(object sender, RoutedEventArgs e)
+        {
+            ltbOrderItems.Items.Add("Breakfast Croissant");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+           // string s1 = ltbOrderItems.SelectedItem.ToString();
+           // passingText = s1;
+
             Sandwiches san1 = new Sandwiches();
             san1.Show();
+            
+
+
             this.Visibility = Visibility.Hidden;
+
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            MainWindow main = new MainWindow();
+            main.Show();
+            this.Visibility = Visibility.Hidden;
+        }
+
+        private void btnBreakfastBagel_Click(object sender, RoutedEventArgs e)
+        {
+            ltbOrderItems.Items.Add("Breakfast Bagel");
         }
     }
 }
