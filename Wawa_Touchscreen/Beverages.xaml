@@ -13,11 +13,11 @@
         <Label x:Name="lblLattes" Content="Lattes" HorizontalAlignment="Left" Margin="35,385,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
         <Label x:Name="lblHotChocolates" Content="Hot Chocolates" HorizontalAlignment="Left" Margin="214,387,0,0" VerticalAlignment="Top" FontFamily="Arial Black" Foreground="#FFB61E1E"/>
         <Label x:Name="lblMacchiatos" Content="Macchiatos" HorizontalAlignment="Left" Margin="416,387,0,0" VerticalAlignment="Top" Foreground="#FFB61E1E" FontFamily="Arial Black"/>
-        <ListBox x:Name="ltbOrderItems" HorizontalAlignment="Left" Height="251" Margin="643,70,0,0" VerticalAlignment="Top" Width="126">
-            <ListBoxItem x:Name="lblMangoSmoothie" Content="Mango Smoothie"/>
-            <ListBoxItem x:Name="lblIcedCoffee" Content="Iced Coffee"/>
-            <ListBoxItem x:Name="lblRoastBeefSandwich" Content="Roast Beef Sandwich"/>
-            <ListBoxItem x:Name="lblBLT" Content="BLT"/>
+        <ListBox x:Name="ltbOrderItems" HorizontalAlignment="Left" Height="251" Margin="643,70,0,0" VerticalAlignment="Top" Width="126" SelectionChanged="ltbOrderItems_SelectionChanged">
+            <ListBoxItem x:Name="lblMangoSmoothie" Content=""/>
+            <ListBoxItem x:Name="lblIcedCoffee" Content=""/>
+            <ListBoxItem x:Name="lblRoastBeefSandwich" Content=""/>
+            <ListBoxItem x:Name="lblBLT" Content=""/>
         </ListBox>
         <Label x:Name="lblHotBeverages" Content="Hot Beverages" HorizontalAlignment="Left" Margin="190,231,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="20"/>
         <Label x:Name="lblColdBeverages" Content="Cold Beverages" HorizontalAlignment="Left" Margin="190,10,0,0" VerticalAlignment="Top" FontFamily="Arial Black" FontSize="20"/>
@@ -26,7 +26,7 @@
                 <ImageBrush ImageSource="Image14.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnCreamSmoothies" Content="" HorizontalAlignment="Left" Margin="206,50,0,0" VerticalAlignment="Top" Width="119" Height="112" Click="Button_Click">
+        <Button x:Name="btnCreamSmoothies" Content="" HorizontalAlignment="Left" Margin="206,50,0,0" VerticalAlignment="Top" Width="119" Height="112" Click="btnCreamSmoothies_Click">
             <Button.Background>
                 <ImageBrush ImageSource="Image15.png"/>
             </Button.Background>
@@ -51,7 +51,7 @@
                 <ImageBrush ImageSource="Image19.png"/>
             </Button.Background>
         </Button>
-        <Button Content="Next" HorizontalAlignment="Left" Margin="660,35,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold"/>
+        <Button Content="Check order" HorizontalAlignment="Left" Margin="660,35,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_2"/>
         <Button Content="Back" HorizontalAlignment="Left" Margin="660,365,0,0" VerticalAlignment="Top" Width="75" FontWeight="Bold" Click="Button_Click_1"/>
 
     </Grid>
