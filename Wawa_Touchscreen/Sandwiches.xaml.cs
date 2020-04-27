@@ -31,38 +31,33 @@ namespace Wawa_Touchscreen
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main1 = new MainWindow();
-            main1.Show();
+            
+ 
         }
 
         private void Sourdough_Sandwich_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main1 = new MainWindow();
-            main1.Show();
+            Item1.Items.Add("Sourdough Sandwich");
         }
 
         private void Flatbread_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main1 = new MainWindow();
-            main1.Show();
+            Item1.Items.Add("Flatbread");
         }
 
         private void Roasted_Chicken_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main1 = new MainWindow();
-            main1.Show();
+            Item1.Items.Add("Roasted Chicken");
         }
 
         private void Quesedilla_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main1 = new MainWindow();
-            main1.Show();
+            Item1.Items.Add("Quesedilla");
         }
 
         private void Burrito_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow main1 = new MainWindow();
-            main1.Show();
+            Item1.Items.Add("Burroto");
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
@@ -74,9 +69,19 @@ namespace Wawa_Touchscreen
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Beverages beverages = new Beverages();
-            beverages.Show();
+            Breakfast bre = new Breakfast();
+            bre.Show();
             this.Visibility = Visibility.Hidden;
+        }
+
+        private void Hoagies_Click(object sender, RoutedEventArgs e)
+        {
+            Item1.Items.Add("Hoagies");
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+           // Item1.Items.Add(Breakfast.passingText);
         }
     }
 }
